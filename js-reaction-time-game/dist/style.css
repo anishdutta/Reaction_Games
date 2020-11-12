@@ -1,0 +1,139 @@
+body {
+	background: #f1f1f1;
+	font-family: Roboto;
+	margin: 0;
+}
+
+#title-area {
+	text-align: center;
+	padding: 20px 30px;
+	margin: 0;
+	height: 100vh;
+}
+
+#title-area h1 {
+	color: #2196F3;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 200;
+	font-size: 6em;
+}
+
+#title-area p {
+	font-size: 3em;
+	font-weight: 200;
+	color: #1976D2;
+}
+
+main {
+	text-align: center;
+}
+
+#btn-start {
+	background: transparent;
+	font-size: 1em;
+	padding: 10px 5px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-weight: 100;
+	width: 150px;
+	letter-spacing: 3px;
+	border-radius: 20px;
+	border: 1px solid #2196F3;
+	color: 	#2196F3;
+	cursor: pointer;
+	transition: 0.2s all ease;
+}
+
+#btn-start:hover {
+	background: #2196F3;
+	color: #fff;
+}
+
+
+/*
+ * Game Time
+ */
+
+ .hide {
+ 	display: none;
+ }
+
+ .show {
+ 	display: block;
+ 	background: #f1f1f1;
+ 	height: 100vh;
+ 	margin: 0 auto;
+ }
+
+#game-div {
+ 	width: 650px;
+ 	height: 60vh;
+ 	margin: 50px auto 0 auto;
+ 	display: block;
+ 	border-radius: 10px;
+ 	background: #fff;
+}
+
+#restart {
+	font-size: 0.7em;
+ 	position: absolute;
+ 	top: 10px;
+ 	right: 1.1em;
+ 	width: 60px;
+ 	border-radius: 20px;
+ 	padding: 5px 8px;
+ 	border: 1px solid #2196f3;
+ 	text-decoration: none;
+ 	color: #2196f3;
+ 	transition: 0.2s all ease
+ }
+#restart:hover {
+ 	background: #2196f3;
+ 	color: #fff;
+ }
+
+#exit {
+	font-size: 0.7em;
+ 	position: absolute;
+ 	top: 50px;
+ 	right: 1.1em;
+ 	width: 60px;
+ 	border-radius: 20px;
+ 	padding: 5px 8px;
+ 	border: 1px solid #2196f3;
+ 	text-decoration: none;
+ 	color: #2196f3;
+ 	transition: 0.2s all ease
+ }
+#exit:hover {
+ 	background: #2196f3;
+ 	color: #fff;
+ }
+
+ #timer-div {
+ 	width: 50%;
+ 	margin: 20px auto;
+ }
+
+#score {
+ 	font-weight: 500;
+ 	color: #1976D2;
+ 	height: 20px;
+ }
+
+#reaction-time {
+	width: 100%;
+	color: #2196f3;
+}
+
+
+#the-circle {
+ 	position: relative;
+ 	cursor: pointer;
+ }
+
+#stats-div {
+ 	margin-top: 5em;
+ 	font-size: 0.8em;
+}
