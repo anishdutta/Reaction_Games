@@ -46,7 +46,7 @@ window.onload = function() {
 		var x = Math.random() * 300;
 		var y = Math.random() * 250;
 
-		theCircle.src = "http://www.confeafa.org/images/boton-verde.png";
+		theCircle.src = "https://i.ibb.co/ZBKkgyR/star-icon-19.png";
 		theCircle.style.left = x + "px";
 		theCircle.style.top = y + "px";
 		createdTime = Date.now();
